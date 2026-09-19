@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1000px"
+   height="1000px"
+   viewBox="0 0 1000 1000"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="1.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:zoom="0.39229567"
+     inkscape:cx="672.9618"
+     inkscape:cy="471.58308"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1">
+    <sodipodi:guide
+       position="192.91496,900.15873"
+       orientation="0,-1"
+       id="guide1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="103.56582,912.34388"
+       orientation="0,-1"
+       id="guide2"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="334.26868,199.76831"
+       orientation="0,-1"
+       id="guide3"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="275.44804,174.61726"
+       orientation="0,-1"
+       id="guide4"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <!-- Font metrics: baseline at y=800 (200px up from the bottom); HAP height at y=100 (100px down from the top). -->
+  <path
+     fill="#000000"
+     d="m 379.27388,234.34409 c 51.6531,-15.81012 63.69549,-48.0051 85.73086,-73.70747 l 37.26208,-46.81844 c 14.24727,-17.686977 33.97425,-26.010252 56.98906,-26.010252 33.97425,0 55.89312,22.889022 55.89312,58.262962 V 768.236 c 0,35.37394 -23.01481,58.26295 -61.37284,58.26295 -38.35801,0 -61.37283,-22.88901 -61.37283,-58.26295 V 301.09195 c -28.49453,24.96984 -48.46879,44.73763 -85.73086,59.30337 -35.0702,13.52533 -64.66068,-2.08082 -76.71605,-32.2527 -13.15132,-33.29313 -2.33564,-77.98841 49.31746,-93.79853 z"
+     id="path1"
+     style="stroke-width:1.06782"
+     sodipodi:nodetypes="zccssssscccz" />
+</svg>

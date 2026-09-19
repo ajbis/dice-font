@@ -1,0 +1,12 @@
+# Local Copilot and AI tool state
+.copilot/
+.ai/
+.agents/
+memories/
+
+# Local AI instruction and agent files
+AGENTS.md
+copilot-instructions.md
+*.instructions.md
+*.agent.md
+*.prompt.md
