@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dice Font — Kerning Pairs</title>
+<style>
+  @font-face {
+    font-family: 'dice-font';
+    src: url('dice-font.woff2') format('woff2'),
+         url('dice-font.ttf') format('truetype');
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'dice-font', sans-serif;
+    font-size: 2rem;
+    padding: 3rem;
+    background: #fff;
+    color: #000;
+  }
+
+  .columns {
+    display: flex;
+    gap: 3rem;
+  }
+
+  .column {
+    flex: 1;
+  }
+
+  @media (max-width: 640px) {
+    .columns {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+
+  .row {
+    margin-bottom: 2rem;
+  }
+
+  .pairs {
+    white-space: nowrap;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+  <div class="columns">
+    <div class="column" id="col1"></div>
+    <div class="column" id="col2"></div>
+  </div>
+  <script>
+    const col1 = document.getElementById('col1');
+    const col2 = document.getElementById('col2');
+
+    for (let d = 0; d <= 9; d++) {
+      const row = document.createElement('div');
+      row.className = 'row';
+
+      const pairs = document.createElement('p');
+      pairs.className = 'pairs';
+
+      for (let p = 0; p <= 9; p++) {
+        pairs.textContent += `${d}${p} `;
+      }
+
+      row.appendChild(pairs);
+      (d <= 4 ? col1 : col2).appendChild(row);
+    }
+  </script>
+</body>
+</html>

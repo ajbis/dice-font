@@ -45,13 +45,16 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
+WidthSeparation: 150
 WinInfo: 0 16 4
 BeginChars: 10 10
 
 StartChar: 0
 Encoding: 0 48 0
 Width: 600
-Flags: HW
+Flags: W
+HStem: -26.876 117.806<234.47 371.531> 593.705 115.701<240.218 365.783>
+VStem: 78.8906 128.062<117.514 560.18> 399.048 128.062<118.955 560.18>
 LayerCount: 2
 Fore
 SplineSet

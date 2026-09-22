@@ -4,7 +4,8 @@ import re
 import os
 
 REFERENCE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "reference")
-OUTPUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dice-font.svg")
+DIST_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dist")
+OUTPUT = os.path.join(DIST_DIR, "dice-font.svg")
 
 UNITS_PER_EM = 1000
 ASCENDER = 900
@@ -176,6 +177,7 @@ def build_svg_font():
 </svg>
 '''
 
+    os.makedirs(DIST_DIR, exist_ok=True)
     with open(OUTPUT, 'w') as f:
         f.write(font_svg)
 
