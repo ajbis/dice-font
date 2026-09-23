@@ -10,18 +10,18 @@ python3 build-font.py
 
 **Note:** This SVG font does not include kerning pairs — it only contains the raw glyph outlines. Kerning is tuned later in FontForge, saved as a `.sfd` file.
 
-Open `dist/dice-font.svg` in FontForge, adjust kerning visually, save the project as `dist/dice-font.sfd`, then export as `dist/dice-font.ttf`.
+Open `docs/dice-font.svg` in FontForge, adjust kerning visually, save the project as `docs/dice-font.sfd`, then export as `docs/dice-font.ttf`.
 
 Convert the TTF to WOFF2:
 
 ```bash
-cd dist
+cd docs
 woff2_compress dice-font.ttf
 ```
 
 ## Testing
 
-Serve the dist folder locally:
+Serve the docs folder locally:
 
 ```bash
 ./serve.sh

@@ -4,7 +4,7 @@ import re
 import os
 
 REFERENCE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "reference")
-DIST_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dist")
+DIST_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs")
 OUTPUT = os.path.join(DIST_DIR, "dice-font.svg")
 
 UNITS_PER_EM = 1000
