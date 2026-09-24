@@ -46,8 +46,13 @@
   }
 
   .pairs {
-    white-space: nowrap;
     line-height: 1.6;
+  }
+
+  .pair {
+    white-space: nowrap;
+    margin-right: 0.5em;
+    display: inline-block;
   }
 </style>
 </head>
@@ -68,7 +73,10 @@
       pairs.className = 'pairs';
 
       for (let p = 0; p <= 9; p++) {
-        pairs.textContent += `${d}${p} `;
+        const pair = document.createElement('span');
+        pair.className = 'pair';
+        pair.textContent = `${d}${p}`;
+        pairs.appendChild(pair);
       }
 
       row.appendChild(pairs);
